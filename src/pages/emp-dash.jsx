@@ -8,7 +8,7 @@ import { faSellsy } from '@fortawesome/free-brands-svg-icons'
 import {Chart as ChartJS} from 'chart.js/auto';
 import {Bar, Doughnut} from 'react-chartjs-2'
 
-const AdminDash = () => {
+const EmpDash = () => {
     const [first, setfirst] = useState("6%")
     const [display, displayset] = useState("none")
     const [border, borderset] = useState("0px")
@@ -190,4 +190,4 @@ const AdminDash = () => {
   )
 }
 
-export default AdminDash
+export default EmpDash

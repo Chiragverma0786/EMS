@@ -225,7 +225,7 @@ const AdminData = () => {
                                <p>Applications</p>
                             </div>
                             <div className="app-right"> 
-                                    <img src={appPic} alt="" srcset="" />
+                                    <img src={appPic} alt="" />
                             </div>
                         </div>
                         <div className="total-interview">

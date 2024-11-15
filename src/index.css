@@ -4,7 +4,7 @@
 }
 
 body{
-    color: #fff;
+    color: rgb(247, 247, 247);
     background-color:rgb(247, 247, 247);;
 }
 
@@ -29,6 +29,7 @@ body{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     background-color: rgb(65, 64, 93);
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .login-container input{
@@ -271,7 +272,7 @@ body{
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    background-color: rgb(243, 243, 243);
     color: black;
     height: 90%;
     width: 90%;

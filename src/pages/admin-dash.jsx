@@ -16,7 +16,6 @@ const AdminDash = () => {
     const [bgColor, bgset] = useState("#4158D0")
     const [rightWidth, setRightWidth] = useState("100%")
     const [rotateBack, setRotateBack] = useState("0deg")
-    // const [abkabg, setabkabg] = useState("transparent")
     const [abhoga, setabHoga] = useState("noactive")
     const [activeIndex, setActiveIndex] = useState(null);
     const [cutName, setCutName] = useState("none");

@@ -11,7 +11,7 @@ const App = () => {
   
 
   const handleEvent = (email, password)=>{
-      if(authData && authData.admin.find((e)=>email == e.email && password == e.password)){
+      if(email == 'admin@me.com' && password == '123'){
         setUser('admin')
       }
       else if(authData && authData.employees.find((e)=>email == e.email && password == e.password)){
